@@ -4,7 +4,7 @@
 using namespace std;
 #pragma comment(lib, "user32")
 int main() {
-    ::SendMessage(::GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000);
+
     const size_t limit = 1000, size = 100;
     const char letters[] = " 0O@#?!-o*";
     for (size_t iy = 0; iy <= size; iy++) {
